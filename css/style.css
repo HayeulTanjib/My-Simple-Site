@@ -1,0 +1,101 @@
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #b3b3b3;
+  background: white;
+}
+
+
+#particles-js{
+
+  height: 100%;
+  background: #262626;
+}
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1565C0;
+  text-decoration: none;
+}
+
+h1 {
+  color: #be5f12;
+  font-family: "Playfair Display", times, serif;
+}
+
+.titleText{
+
+  color: white;
+}
+
+.desText{
+
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.social{
+
+}
+
+.spancolor{
+
+  color: #62ACB5;
+}
+
+
+.typed-cursor {
+
+  color: white;
+}
+
+.typed-fade-out {
+
+  color: #BB5E13;
+}
+
+
+
+main, aside {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  main, aside {
+    width: 50%;
+  }
+}
+
+aside {
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+@media (min-width: 576px) {
+  aside {
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+}
+
+main {
+  float: left;
+  padding: 7%;
+  position: relative;
+}
+
+
+
+
